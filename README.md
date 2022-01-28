@@ -16,8 +16,9 @@
 
 - `composer create-project --prefer-dist furqee/task-management`
 - Edit `.env` and set your database connection details
-- (When installed via git clone or download, run `php artisan key:generate` and `php artisan jwt:secret`)
+- (When installed via git clone or download, run `composer install` `php artisan key:generate` and `php artisan jwt:secret`)
 - `php artisan migrate`
+- `php artisan db:seed`
 - `npm install`
 
 ## Usage

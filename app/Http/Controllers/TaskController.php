@@ -41,7 +41,7 @@ class TaskController extends Controller
             $columns[] = [
                 'id' => $status->id,
                 'name' => $status->status,
-                'tasks' => $tasks[$status->id],
+                'tasks' => $tasks[$status->id] ?? [],
             ];
         }
 
